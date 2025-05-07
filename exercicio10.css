@@ -1,0 +1,54 @@
+/* Estilo da página */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilo do input e botão */
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #d8b3d6; /* Borda suave, com a cor do botão */
+}
+
+/* Estilo do botão */
+button {
+    cursor: pointer;
+    background-color: #d8b3d6; /* Cor de fundo do botão */
+    color: white; /* Cor do texto no botão */
+}
+
+button:hover {
+    background-color: #c6a2c6; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o input */
+input {
+    background-color: #f9f9f9; /* Cor de fundo do input */
+}
+
+/* Estilo dos resultados */
+#resultados {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo do texto do resultado */
+p {
+    font-weight: bold;
+    color: #333; /* Cor do texto do resultado */
+}
+
+/* Link de voltar */
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+ 
+    text-decoration: none;
+}
+
+   
+

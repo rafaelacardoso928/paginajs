@@ -1,0 +1,28 @@
+/* Reutilize o mesmo estilo do anterior */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 250px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #d8b3d6;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c6a2c6;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}

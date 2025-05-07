@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete com Votos</title>
+    <link rel="stylesheet" href="exercicio15.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Qual é o seu time favorito?</h1>
+
+        <!-- Opções da enquete -->
+        <div>
+            <input type="radio" id="opcao1" name="opcao" value="Time A">
+            <label for="opcao1">Time A</label>
+        </div>
+        <div>
+            <input type="radio" id="opcao2" name="opcao" value="Time B">
+            <label for="opcao2">Time B</label>
+        </div>
+        <div>
+            <input type="radio" id="opcao3" name="opcao" value="Time C">
+            <label for="opcao3">Time C</label>
+        </div>
+
+        <!-- Botão para votar -->
+        <button onclick="votar()">Votar</button>
+
+        <h3>Resultado da Enquete:</h3>
+        <p id="resultado">Nenhum voto ainda.</p>
+
+        <a href="index.html" class="voltar">← Voltar para a página inicial</a>
+    </div>
+
+    <script src="exercicio15.js"></script>
+</body>
+</html>
